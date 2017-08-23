@@ -9,7 +9,7 @@ export default () => (
   <header id="header" className="major-color-bg block">
     <Paper className="center third-color-bg md-grid md-grid--no-spacing">
       <div className="md-cell md-cell--3 md-cell--middle">
-        <img src={logo}/>
+        <img src={logo} alt="" />
       </div>
       <div className="md-cell md-cell--9">
         <h1 className="second-color">WebVR.tw</h1>

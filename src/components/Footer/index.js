@@ -1,7 +1,5 @@
 import React from 'react'
-import Avatar from 'react-md/lib/Avatars'
 import FontIcon from 'react-md/lib/FontIcons'
-import CardTitle from 'react-md/lib/Cards/CardTitle'
 
 import './index.css'
 
