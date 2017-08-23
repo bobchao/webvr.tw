@@ -3,16 +3,16 @@ import Card from '../Card/'
 import './index.css'
 
 const cardsData = [{
-  title: '台北 WebVR 社群聚會',
+  title: '台北社群聚會',
   link: '//events.webvr.tw'
 }, {
-  title: 'WebVR 中文新鮮報',
+  title: '中文新鮮報',
   link: '//news.webvr.tw'
 }, {
-  title: 'WebVR 中文討論區',
+  title: '中文討論區',
   link: '//forum.webvr.tw'
 }, {
-  title: 'WebVR 初學教材',
+  title: '初學教材',
   link: '//learn.webvr.tw'
 }]
 
