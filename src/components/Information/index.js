@@ -3,6 +3,10 @@ import Card from '../Card/'
 import './index.css'
 
 const cardsData = [{
+  title: '初學教材',
+  link: '//learn.webvr.tw',
+  cover: `${process.env.PUBLIC_URL}/img/learn.png`
+}, {
   title: '台北社群聚會',
   link: '//events.webvr.tw',
   cover: `${process.env.PUBLIC_URL}/img/event.png`
@@ -14,10 +18,6 @@ const cardsData = [{
   title: '中文討論區',
   link: '//forum.webvr.tw',
   cover: `${process.env.PUBLIC_URL}/img/forum.png`
-}, {
-  title: '初學教材',
-  link: '//learn.webvr.tw',
-  cover: `${process.env.PUBLIC_URL}/img/learn.png`
 }]
 
 export default () => (
