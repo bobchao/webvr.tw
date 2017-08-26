@@ -13,7 +13,7 @@ export default ({
   link
 }) => (
   <Paper className={` ${className}`}>
-    <a href={link}>
+    <a target="_blank" href={link}>
       <Media><img src={cover || img} alt="" /></Media>
     </a>
     <div className="card-text">
