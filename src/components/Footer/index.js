@@ -3,7 +3,7 @@ import React from 'react'
 import './index.css'
 
 export default () => (
-  <footer id="footer" className="third-color-bg md-grid">
+  <footer id="footer" className="major-color-bg md-grid">
     <div className="md-cell md-cell--6">
       <h1 className="title"><a className="second-color second-color-hover" href="//github.com/bobchao/webvr.tw/">
         <i className="fa fa-github" />

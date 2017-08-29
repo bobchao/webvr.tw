@@ -5,7 +5,7 @@ body {
 }
 
 p {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .major-color {
@@ -13,7 +13,7 @@ p {
 }
 
 .major-color-bg {
-  background-color: #44bee8;
+  background-color: #F4C4A4;
 }
 
 .second-color {
@@ -25,7 +25,7 @@ p {
 }
 
 .second-color-bg {
-  background-color: #1d2a5b;
+  background-color: #44986C;
 }
 
 .third-color {
