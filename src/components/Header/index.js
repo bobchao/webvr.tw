@@ -6,8 +6,8 @@ import './index.css'
 import logo from '../../logo.svg'
 
 export default () => (
-  <header id="header" className="major-color-bg block">
-    <Paper className="center third-color-bg md-grid md-grid--no-spacing">
+  <header id="header" className="block">
+    <Paper className="center md-grid md-grid--no-spacing">
       <div className="md-cell md-cell--3 md-cell--middle">
         <img src={logo} alt="" />
       </div>

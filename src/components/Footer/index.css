@@ -1,3 +1,6 @@
-footer .title {
+#footer {
+  background-color: #F4C4A4;
+}
+#footer .title {
   font-size: 30px;
 }

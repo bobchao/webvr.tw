@@ -4,7 +4,7 @@ import FontIcon from 'react-md/lib/FontIcons'
 import './index.css'
 
 export default () => (
-  <footer className="third-color-bg md-grid">
+  <footer id="footer" className="third-color-bg md-grid">
     <div className="md-cell md-cell--6">
       <h1 className="title"><a className="second-color" href="//github.com/bobchao/webvr.tw/">
         <FontIcon className="second-color" iconClassName="fa fa-github" />
