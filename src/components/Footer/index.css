@@ -4,3 +4,7 @@
 #footer .title {
   font-size: 30px;
 }
+
+#footer a {
+  text-decoration: none;
+}

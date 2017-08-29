@@ -20,6 +20,10 @@ p {
   color: #1d2a5b;
 }
 
+.second-color-hover:hover {
+  color: #5367b1;
+}
+
 .second-color-bg {
   background-color: #1d2a5b;
 }
