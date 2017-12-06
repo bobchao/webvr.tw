@@ -5,16 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WebVR.tw</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="fontello-d92d3063/css/fontello.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <p>歡迎光臨<del>漢堡王</del> WebVR.tw</p>
-    <ul>
-      <li><a href="http://events.webvr.tw">events.webvr.tw - 台北 WebVR 社群聚會</a></li>
-      <li><a href="http://news.webvr.tw">news.webvr.tw - WebVR 中文新鮮報</a></li>
-      <li><a href="http://forum.webvr.tw">forum.webvr.tw - WebVR 中文討論區</a></li>
-      <li><a href="http://learn.webvr.tw">learn.webvr.tw - WebVR 初學教材</a>：目前是 A-Frame School，歡迎推薦其他框架同等級的超入門教材</li>
-    </ul>
-    <p><a href="https://github.com/bobchao/webvr.tw/">想幫修改網站，請來 GitHub 發 PR 或開 issue。</a></p>
-    <p>有 WebVR 資源，值得新開一個 subdomain 導過去？請發 issue，最好跟 .tw 有關聯（中文、在台灣、台灣人做的、內容是台灣相關... etc.）。</p>
+    <header>
+      <div class="logo row">
+          <div class="col-xs-5 logo-wrap">
+            <img src="img/logo.svg">
+          </div>
+          <div class="col-xs-7 logo-text">
+            <h2 class="pc">WebVR.tw</h2>
+            <p class="sc">WebVR中文社群</p>
+          </div>
+      </div>
+    </header>
+    <section id="content" class="rail row">
+      <div class="col-xs-12">
+        <p>歡迎光臨 <b class="pc">WebVR.tw</b>，這裡有些有用的資源給大家參考</p>
+      </div>
+      <div class="col-xs-12 row board-container">
+        <div class="col-xs-12 col-sm-6 learn board">
+          <img src="img/learn.png">
+          <a href="http://events.webvr.tw" class="info from-top" target="_blank">
+            <h2 class="focus">初學教材</h2>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 news board">
+          <img src="img/news.png">
+          <a href="http://news.webvr.tw" class="info from-top" target="_blank">
+            <h2 class="focus">中文新鮮報</h2>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 last-sm forum board">
+          <img src="img/forum.png">
+          <a href="http://learn.webvr.tw" class="info from-right" target="_blank">
+            <h2 class="focus">中文討論區</h2>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 event board">
+          <img src="img/event.png">
+          <a href="http://forum.webvr.tw" class="info from-left" target="_blank">
+            <h2 class="focus">台北社群聚會</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="rail row">
+        <div class="col-xs-12 col-sm-6">
+          <h3 class="pc"><i class="icon-shield"></i>資源</h3>
+          <p class="sc">如果有 <b>WebVR</b> 資源，成為一個 <b>WebVR</b> subdomain。</p>
+          <p class="sc">請發 issue，最好跟 .tw 有關聯<br>（中文、在台灣、台灣人做的、內容是台灣相關... etc.）。</p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h3 class="pc"><i class="icon-github-circled"></i>貢獻</h3>
+          <p class="sc">想幫修改網站，請來 <b><a href="https://github.com/bobchao/webvr.tw/">GitHub</a></b> 發 PR 或開 issue。</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
