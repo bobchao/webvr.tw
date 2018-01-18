@@ -71,18 +71,6 @@ footer {
 .board .info.from-top { top: 0; }
 .board .info.from-bottom { bottom: 0; }
 
-@media only screen and (min-width: 48em) {
-  .board .info.from-left { left: -100%; }
-  .board .info.from-right { right: -100%; }
-  .board .info.from-top { top: -100%; left: 0; }
-  .board .info.from-bottom { bottom: -100%; left: 0; }
-
-  .board:hover .info.from-left { left: 0; }
-  .board:hover .info.from-right { right: 0; }
-  .board:hover .info.from-top { top: 0; }
-  .board:hover .info.from-bottom { bottom: 0; }
-}
-
 .board .info.from-left { top: 0; }
 .board .info.from-right { top: 0; }
 
